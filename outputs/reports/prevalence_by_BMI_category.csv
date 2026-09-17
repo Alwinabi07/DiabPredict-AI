@@ -1,0 +1,7 @@
+BMI_category,sample_count,diabetes_cases,prevalence_pct
+Normal,58842,3910.0,6.64
+Obese Class I,50693,10193.0,20.11
+Obese Class II,20448,5653.0,27.65
+Obese Class III,13716,4607.0,33.59
+Overweight,82723,10565.0,12.77
+Underweight,3052,169.0,5.54

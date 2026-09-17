@@ -1,0 +1,2 @@
+model,period,mae,rmse,mape,horizon,last_train_value
+naive,validation,1.1706522499999998,1.3256655286911552,6.711348315123394,8,15.960917

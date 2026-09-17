@@ -1,0 +1,2 @@
+model,period,mae,rmse,mape,horizon,order
+arima,test,0.4654631762456195,0.5863624903212936,2.166391335575658,7,"(2, 2, 0)"

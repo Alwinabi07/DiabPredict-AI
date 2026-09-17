@@ -1,0 +1,31 @@
+# GitHubignore for DiabPredict AI
+# 
+# Exclude virtual environment, cache files, and temporary files.
+# Model files are kept in the repo for the Streamlit app to use.
+
+# Python environment
+.venv/
+venv/
+
+# Python bytecode
+__pycache__/
+*.py[c]
+*.pyo
+*.pyd
+*.egg
+
+# Streamlit
+.streamlit/
+
+# Test files created during development
+_audit_*.py
+_verify_*.py
+
+# Large model cache or temporary files
+models/best_model_shap_explainer.joblib
+
+# Environment variables
+.env
+
+# OS-specific
+.DS_Store

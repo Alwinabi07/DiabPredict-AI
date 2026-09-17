@@ -1,0 +1,2 @@
+model,period,mae,rmse,mape,horizon,n_lags,n_estimators,max_depth,learning_rate
+xgboost,validation,1.4340933398132325,1.588683849814141,8.24648133638351,8,3,200,3,0.1
