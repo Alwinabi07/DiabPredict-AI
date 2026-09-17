@@ -9,9 +9,7 @@ import sys
 from pathlib import Path
 
 # Add src to path
-REPO_ROOT = Path(__file__).resolve().parents[1]
-if str(REPO_ROOT) not in sys.path:
-    sys.path.insert(0, str(REPO_ROOT))
+sys.path.append(str(Path(__file__).parent.parent / "src"))
 
 # Page config
 st.set_page_config(
